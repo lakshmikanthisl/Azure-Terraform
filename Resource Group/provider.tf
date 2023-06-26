@@ -11,7 +11,7 @@ terraform {
 
 #Provider Module
 provider "azurerm" {
-  #skip_provider_registration = "true" #Optinally used (Error ensuring Resource Providers are registered.)
+  skip_provider_registration = "true" #Optinally used (Error ensuring Resource Providers are registered.)
   features {}
 }
 
