@@ -16,7 +16,14 @@ output "vnet_name" {
 
 output "vnet_id" {
   value = azurerm_virtual_network.myvnet1.id
+}
 
+output "vnet_location" {
+  value = azurerm_virtual_network.myvnet1.location
+}
+
+output "vnet_address_space" {
+  value = azurerm_virtual_network.myvnet1.address_space
 }
 
 output "subnet_id" {
